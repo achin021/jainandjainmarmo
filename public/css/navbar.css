@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+#logo{
+flex: 1;
+z-index: 1;
+left: 0;
+align-items: center;
+justify-content: center;
+margin-left: 40px;
+}
+
+#linkss{
+flex: 1;
+width: fit-content;
+}
+
+#links{
+width: fit-content;
+display: inline-block;
+margin-right: 50px;
+}
+
+#links li{
+  display: inline;
+  font-size: 22px;
+  padding-left: 70px;
+}
+
+#links li a{
+  color: black;
+  text-decoration: none;
+}
+
+#logo img{
+height: 53px;
+transition: 0.1s;
+}
+
+#title_box{
+position: absolute; 
+z-index: 10;
+top: 55%;
+transform: translateY(-50%);
+margin-left: 70px;
+background-color: rgba(255,255,255,0);
+border-radius: 15px;
+}
+
+#title_box h1{
+font-size: 48px;
+color: black;
+font-family: nexa-demo;
+letter-spacing: 5px;
+font-weight: bold;
+word-break: break-word;
+}
+
+#title_box button{
+  margin-top: 30px;
+  padding: 10px 45px 10px 45px;
+  font-family: nexa-demo;
+  font-size: 23px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor:pointer;
+  color: white;
+
+}
+
+#title_box  button:hover {
+background-color: black;
+transition: 150ms ease-out;
+background: rgba( 0, 0, 0, 0.9 );
+}
+
+#navbar{
+  width: 100%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  align-items: center;
+  z-index: 30;
+  transition: 0.4s;
+  height: 110px;
+  background: transparent;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutscroll{
+  position: absolute;
+  bottom: 110px;
+}
+
+
+
+@media only screen and (max-width: 1270px) {
+  #links{
+    display: none;
+  }
+
+  #title_box h1 {
+    font-size: 31px;
+  }
+  #title_box p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 870px){
+  #title_box{
+    margin:0 ;
+    text-align: left;
+    padding: 0 20px;
+  }
+  #logo{
+    margin-left: 0px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+#title_box h1{
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  }
+
+#title_box button{
+  margin-top: 30px;
+  padding: 10px 38px 10px 38px;
+  font-family: nexa-demo;
+  font-size: 19px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor:pointer;
+  color: white;
+}  
+
+}
+h1{
+  font: 60px;
+}
+
+#logo img{
+  height:54px;
+  
+  }
+}
+

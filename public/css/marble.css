@@ -1,0 +1,135 @@
+html{
+scroll-behavior: smooth;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.single-img{
+  position: relative;
+  margin:20px 20px;
+  height: 280px;
+  width: 430px;
+  gap: 15px;
+}
+
+.single-img img:hover{
+  opacity: .4;
+  transition: .3s;
+}
+
+#main_title{
+  font-size:120px;
+  font-family: nexa-demo;
+  letter-spacing: 4px; 
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.single-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marbleName{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: nexa-demo;
+    position: absolute;
+    height: 100%;
+    line-height: 280px;
+    bottom: 0;
+    cursor: pointer;
+    background-color: black;
+    width: 100%;
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+    opacity: 0;
+
+}
+
+.marbleName:hover{
+    opacity: 0.8;
+    
+}
+
+#title_box1 p{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#title_box1{
+word-wrap: break-word;
+position: absolute; 
+z-index: 10;
+top: 40%;
+transform: translateY(-50%);
+margin-left: 70px;
+background-color: rgba(255,255,255,0);
+border-radius: 15px;
+}
+
+#title_box1 h1{
+font-size: 48px;
+color: black;
+font-family: nexa-demo;
+letter-spacing: 5px;
+font-weight: bold;
+word-break: break-word;
+}
+
+
+@font-face {
+  font-family: nexa-demo;
+  src: url('../fonts/NexaDemo-Bold.woff');
+  font-weight: bold;
+}
+/* ignore the code below */
+@media only screen and (max-width: 1270px) {
+
+  #title_box p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+
+  #title_box p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+
+  #title_box1 h1 {
+    font-size: 31px;
+  }
+  #title_box1 p {
+    font-size: 23px;
+  }
+  #title_box1 h2 {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 870px){
+  #title_box1{
+    margin:0 ;
+    text-align: left;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+#title_box1 h1{
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  }
+}

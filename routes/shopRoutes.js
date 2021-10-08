@@ -1,0 +1,15 @@
+const express = require('express');
+
+const shopController = require('../controllers/shopController');
+
+const router = express.Router()
+
+router.get('/', shopController.getShop);
+
+router.get('/marbles', shopController.getMarbles);
+
+router.get('/granites', shopController.getGranites);
+
+router.get('/ceramic', shopController.getCeramic);
+
+module.exports = router;

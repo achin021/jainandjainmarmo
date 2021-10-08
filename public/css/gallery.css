@@ -1,0 +1,75 @@
+
+.gallery h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: rgb(29, 29, 29);
+  padding: 40px 0;
+  font-weight: 600;
+}
+
+.gallery{
+  background-color: white;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.gallery{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.gallery .container3{
+  text-align: center; 
+  padding-bottom: 120px;
+}
+
+.wrapper{
+  width: 70%;
+  height: fit-content;
+  overflow-x:scroll;
+  padding: 5px;
+  display:inline-block;
+}
+#slider4{
+  white-space: nowrap;
+}
+.slide-img{
+  background: #ccc;
+  height: 300px;
+  display: inline-block;
+  width: 350px;
+}
+
+
+.wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #999999; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(209, 186, 136); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 151, 107); 
+}
+
+#galleryscroll{
+  position: relative;
+  bottom: 110px;
+}
+
+@media only screen and (max-width: 600px){
+  .gallery h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+  }
+}

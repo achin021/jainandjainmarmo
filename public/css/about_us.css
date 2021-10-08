@@ -1,0 +1,110 @@
+.about{
+    width: 100vw;
+    background :linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.2)), url('/images/aboutus/marble-tile-durable-material-background.jpg');
+    background-size: cover;
+    background-color:rgb(0, 0, 0);
+    background-attachment: fixed;
+
+}
+
+.about .container1 #heading h1{
+    color: #e4b26d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.about .container1 #heading p{
+    margin-top: 40px;
+    color: rgb(255, 251, 246);
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.container1{
+    padding: 80px 70px 80px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 #imagelogo{
+    flex:1;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.container1 #heading{
+    flex:3;
+    border-top: solid #CD9D5B 2px ;
+    padding: 53px 53px 53px 0px;
+}
+
+.container1 #imagelogo img{
+    height: 400px;
+    position: relative;
+    
+}
+
+#productscroll{
+    position: relative;
+    bottom: 110px;
+  }
+
+@media only screen and (max-width: 1270px){
+    .container1 #heading {
+        padding: 40px 53px 53px 0px;
+    }
+    .container1 #imagelogo img {
+        height: 332px;
+
+    }
+    .about .container1 #heading h1 {
+        font-size: 44px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    .about .container1 #heading p {
+        font-size: 18px;
+        font-weight: 300;
+
+    }
+    .container1 {
+        padding: 59px 70px 39px 70px;
+    }
+}
+
+@media only screen and (max-width: 870px){
+    .container1 #imagelogo {
+        display: none;
+    }
+    
+  }
+
+@media only screen and (max-width: 600px){
+    .container1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .container1 #imagelogo{
+        margin: 0;
+    }
+    .container1 #heading {
+        flex: 1;
+        border-top: solid #CD9D5B 4px;
+        padding: 53px 0px 53px 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 470px){
+    .container1 {
+        padding: 59px 20px 39px 20px;
+    }
+}
