@@ -1,3 +1,7 @@
+body{
+    background-color: white;
+}
+
 .products{
     width: 100vw;
     background-size: cover;
@@ -6,35 +10,35 @@
 }
 
 .container2{
-    margin: 0 auto;
+    margin: 0px auto;
     justify-content: center;
     align-items: center;
+    margin-bottom: 65px;
 }
 
 .products h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 45px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-weight: 600;
-    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
     text-align: center;
-    color: rgb(29, 29, 29);
+    color: #002A41
 }
 
 .container2 #product_list{
     display: flex;
-    grid-gap: 70px;
-    width: 800px;
+    grid-gap: 15px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    width: 1100px;
 }
 
 .item{
-    margin-bottom: 70px;
     width: 50%;
-    height: 300px;
+    height: 250px;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
@@ -58,18 +62,18 @@
 .info{
     position: absolute;
     width: 100%;
-    height: 60px;
-    background-color: rgba(31,44,65,1);
+    height: 45px;
+    background-color: #AB947E;
     bottom: 0;
 
 }
 
 .info p{
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 14px;
+    line-height: 45px;
     color: white;
-    letter-spacing: 5px;
-    font-family: nexa-demo;
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
 }
 
 @font-face {
@@ -78,23 +82,48 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1270px){
+    .container2 #product_list{
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .container2 #product_list{
+        width: 800px;
+    }
+
+    .item{
+        height: 200px;
+    }
+    .products h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+    }
+}
+
 @media only screen and (max-width: 800px){
     .container2 #product_list{
         flex-direction: column;
-        width:100%;
+        width:90%;
         grid-gap: 0;
     }
+    .item {
+        margin-bottom: 35px;
+    }
+
 }
 
 @media only screen and (max-width: 600px){
     .container2 #product_list{
-        width: 80%;
+        width: 70%;
         height: 50%;
     }
     .item {
         margin: 0;
         width: 100%;
-        margin-bottom: 70px;
+        margin-bottom: 35px;
+        height: 270px;
     }
 
     .container2 #product_list{
@@ -111,7 +140,7 @@
     }
 
     .products h1{
-        font-family: 'Raleway', sans-serif;
-        font-size: 33px;
+        font-family: 'Playfair Display', serif;
+        font-size: 45px;
     }
 }

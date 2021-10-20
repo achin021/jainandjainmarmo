@@ -21,9 +21,9 @@ background: transparent;
 border: none;
 position: fixed;
 z-index: 100;
-top: 28px;
-right:50px ;
+top: 18px;
 padding: 10px;
+right: 20px;
 
 cursor: pointer;
 }

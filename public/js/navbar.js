@@ -3,8 +3,8 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if ((document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)) {
     
-    document.getElementById("navbar").style.background = "#1F3041";
-    document.getElementById("logoVector").style.height = "53px";
+    document.getElementById("navbar").style.background = "rgba(31,44,65,1)";
+    document.getElementById("logoVector").style.height = "54px";
     document.getElementById("home").style.color = "white"
     document.getElementById("aboutus").style.color = "white"
     document.getElementById("contactus").style.color = "white"
@@ -18,7 +18,7 @@ function scrollFunction() {
   } else {
    
     document.getElementById("navbar").style.background = "none";
-    document.getElementById("logoVector").style.height = "53px";
+    document.getElementById("logoVector").style.height = "54px";
     document.getElementById("home").style.color = "black"
     document.getElementById("aboutus").style.color = "black"
     document.getElementById("contactus").style.color = "black"

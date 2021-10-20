@@ -12,4 +12,6 @@ router.get('/granites', shopController.getGranites);
 
 router.get('/ceramic', shopController.getCeramic);
 
+router.get('/cnc', shopController.getCnc);
+
 module.exports = router;

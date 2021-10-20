@@ -1,0 +1,230 @@
+html{
+scroll-behavior: smooth;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.single-img{
+  position: relative;
+  margin:20px 20px;
+  height: 220px;
+  width: 330px;
+  gap: 15px;
+}
+
+.single-img img:hover{
+  opacity: .4;
+  transition: .3s;
+}
+
+#main_title{
+  text-indent: -8px;
+  font-size: 95px;
+  font-family: 'Playfair Display', sans-serif;
+  letter-spacing: 4px; 
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.single-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marbleName{
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-family: nexa-demo;
+    position: absolute;
+    height: 100%;
+    line-height: 220px;
+    bottom: 0;
+    cursor: pointer;
+    background-color: black;
+    width: 100%;
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+    opacity: 0;
+
+}
+
+.marbleName:hover{
+    opacity: 0.8;
+    
+}
+
+#title_box1 p{
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 13px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title_box1 p a{
+  color: black;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+#box{
+  height: 90vh;
+}
+
+#title_box1{
+display: flex;
+width: 100%;
+flex: 1;
+word-wrap: break-word;
+position: absolute; 
+z-index: 10;
+top: 49%;
+transform: translateY(-50%);
+background-color: rgba(255,255,255,0);
+border-radius: 15px;
+align-items: center;
+}
+
+#title_box1 h1{
+font-size: 22px;
+color: black;
+font-family: 'Nunito', sans-serif;
+letter-spacing: 8px;
+font-weight: bold;
+word-break: break-word;
+}
+
+.mockup{
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+
+.mockup img{
+  width: 500px;
+  margin-right: 30px;
+}
+
+#title{
+  margin-bottom: 10px;
+  padding: 0 70px;
+}
+
+#sizes{
+  font-size: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+@font-face {
+  font-family: nexa-demo;
+  src: url('../fonts/NexaDemo-Bold.woff');
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: playfair;
+  src: url('../fonts/playfair-display-v22-latin-900.woff');
+  font-weight: 900;
+}
+
+/* ignore the code below */
+
+
+@media only screen and (max-width: 1270px) {
+  #main_title{
+    font-size: 75px;
+
+  }
+  #title_box p {
+    font-size: 18px;
+  }
+  #title_box1 h1 {
+    font-size: 17px;
+  }
+
+  .mockup img{
+    width: 370px;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .mockup{
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  #box{
+    height: 58vh;
+  }
+
+  #title_box p {
+    font-size: 16px;
+  }
+}
+
+
+
+@media only screen and (max-width: 870px){
+  #title_box1{
+    text-align: left;
+    top: 46%;
+    line-height: 80px;
+  }
+  #title{
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    #title_box1{
+        text-align: left;
+        line-height: 80px;
+      }
+
+      #title{
+        margin: 0 auto;
+        padding: 0 30px;
+      }
+
+    #title_box1 h1{
+  font-size: 22px;
+  margin-top: 15px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  }
+  #title_box1 p{
+      margin-top: 0;
+      margin-bottom: -45px ;
+  }
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+a {
+  color: white;
+}

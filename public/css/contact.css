@@ -1,8 +1,8 @@
 #inf h1{
     font-size: 40px;
     color: white;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
+    font-family: 'Playfair Display', sans-serif;
+    letter-spacing: 3px;
     border-bottom: #d1ba88;
     margin-bottom: 50px;
 }
@@ -16,16 +16,24 @@
 
 .contact_container{
     display: flex;
-    padding:100px 70px;
-    
+    padding:50px 70px;
+    gap: 40px;
+    background-color: rgba(31,44,65,1);
+    padding-bottom: 0px;
 }
 
 .half1{
     flex:1;
-    padding-bottom: 70px;
     word-break: break-word;
 }
 
+
+.half3{
+    flex:1;
+    padding-bottom: 70px;
+    word-break: break-word;
+    flex-direction: row-reverse;
+}
 .half2{
     flex:1;
 }
@@ -37,18 +45,27 @@
 
 .data{
     color: white;
-    margin-bottom: 35px;
+    margin-bottom: 22px;
     display: flex;
     flex-direction: row;
     gap: 40px;
     align-items: center;
-    font-size: 19px;
+    font-size: 17px;
+}
+
+.data1{
+    color: white;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    align-items: center;
+    font-size: 17px;
 }
 
 #map{
     display: flex;
-    justify-content: right;
-    padding-left: 70px;
+    justify-content: center;
     box-sizing: border-box;
 }
 /* Set the size of the div element that contains the map */
@@ -61,7 +78,7 @@ iframe{
 @media only screen and (max-width: 600px){
     .contact_container{
         flex-direction: column;
-        padding: 70px 40px;
+        padding: 23px 40px;
     }
     #map{
         justify-content: center;
@@ -73,7 +90,7 @@ iframe{
     }
     .data{
         color: white;
-        margin-bottom: 35px;
+        margin-bottom: 12px;
         display: flex;
         flex-direction: row;
         gap: 40px;
@@ -82,6 +99,7 @@ iframe{
     }
     #inf h1{
         font-size: 30px;
+        margin-bottom: 35px;
     }
     
 }

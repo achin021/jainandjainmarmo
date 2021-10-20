@@ -1,23 +1,26 @@
 .about{
     width: 100vw;
-    background :linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.2)), url('/images/aboutus/marble-tile-durable-material-background.jpg');
-    background-size: cover;
-    background-color:rgb(0, 0, 0);
-    background-attachment: fixed;
 
 }
 
 .about .container1 #heading h1{
-    color: #e4b26d;
-    font-family: 'Raleway', sans-serif;
-    font-size: 55px;
+    color: #002A41;
+    margin-bottom:80px ;
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
     font-weight: 800;
     letter-spacing: 3px;
 }
 
+hr{
+    margin-top: 71px;
+    width: 44%;
+    height: 5px;
+    border: none;
+    background: #e2d2cd;
+}
 .about .container1 #heading p{
-    margin-top: 40px;
-    color: rgb(255, 251, 246);
+    color: rgb(24, 24, 24);
     font-family: roboto;
     font-size: 20px;
     font-weight: 300;
@@ -26,47 +29,52 @@
 }
 
 .container1{
-    padding: 80px 70px 80px 70px;
+    padding: 0px 70px 0px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:92px;
 }
 
 .container1 #imagelogo{
     flex:1;
-    text-align: right;
-    margin-right: 50px;
+    text-align: center;
 }
 
 .container1 #heading{
-    flex:3;
-    border-top: solid #CD9D5B 2px ;
-    padding: 53px 53px 53px 0px;
+    flex:1;
 }
 
 .container1 #imagelogo img{
-    height: 400px;
+    width: 90%;
     position: relative;
+    margin-top: 60px;
     
+}
+
+.container11 #heading {
+    text-align: right;
 }
 
 #productscroll{
     position: relative;
-    bottom: 110px;
+    bottom: 90px;
   }
 
 @media only screen and (max-width: 1270px){
-    .container1 #heading {
-        padding: 40px 53px 53px 0px;
+    hr{
+        margin-top: 50px;
     }
-    .container1 #imagelogo img {
-        height: 332px;
 
+    .container1 #heading {
+        text-align: center;
     }
+    
     .about .container1 #heading h1 {
         font-size: 44px;
         font-weight: 700;
         letter-spacing: 3px;
+        margin-bottom: 40px;
     }
     .about .container1 #heading p {
         font-size: 18px;
@@ -74,16 +82,25 @@
 
     }
     .container1 {
-        padding: 59px 70px 39px 70px;
+        padding: 15px 70px 0px 70px;
+        gap:30px
+    }
+    .about .container1 #heading p{
+        margin-top:40px;
     }
 }
 
+
+
 @media only screen and (max-width: 870px){
-    .container1 #imagelogo {
-        display: none;
+    .container1 {
+        flex-direction: column;
+    }
+    .container11 #imagelogo{
+        order: 2;
     }
     
-  }
+}
 
 @media only screen and (max-width: 600px){
     .container1{
@@ -97,14 +114,17 @@
     }
     .container1 #heading {
         flex: 1;
-        border-top: solid #CD9D5B 4px;
-        padding: 53px 0px 53px 0px;
+        padding: 20px 0px 0px 0px;
+    }
+    .container1 #imagelogo img {
+        height: 60vw;
+
     }
     
 }
 
 @media only screen and (max-width: 470px){
     .container1 {
-        padding: 59px 20px 39px 20px;
+        padding: 0px 20px 0px 20px;
     }
 }
