@@ -131,11 +131,6 @@ word-break: break-word;
 }
 
 
-@font-face {
-    font-family: playfair;
-    src: url('../fonts/playfair-display-v22-latin-900.woff');
-    font-weight: 900;
-}
 
 /* ignore the code below */
 
