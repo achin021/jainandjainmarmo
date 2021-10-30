@@ -33,12 +33,23 @@ exports.getGranites = (req, res, next) => {
     })
 }
 
-exports.getCeramic = (req, res, next) => {
-    res.render('ceramictiles',{
+exports.getCeramic600x1200 = (req, res, next) => {
+    res.render('ceramic600x1200',{
         ceramicNames : ceramicNames,
         ceramicLinks : ceramicLinks,
+    })
+}
+
+exports.getCeramic600x600 = (req, res, next) => {
+    res.render('ceramic600x600',{
         ceramicNames1 : ceramicNames1,
         ceramicLinks1 : ceramicLinks1,
+
+    })
+}
+
+exports.getCeramic800x1600 = (req, res, next) => {
+    res.render('ceramic800x1600',{
         ceramicNames2 : ceramicNames2,
         ceramicLinks2 : ceramicLinks2
     })

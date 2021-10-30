@@ -91,12 +91,13 @@ align-items: center;
 }
 
 #title_box1 h1{
-font-size: 22px;
-color: black;
-font-family: 'Nunito', sans-serif;
-letter-spacing: 8px;
-font-weight: bold;
-word-break: break-word;
+    margin-top: 65px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 8px;
+    font-weight: bold;
+    word-break: break-word;
 }
 
 .mockup{

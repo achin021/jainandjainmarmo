@@ -25,34 +25,45 @@
     
 </head>
 <body>
-    <div id="navbar">
-        <a href="/" id="logo">
-            <div id="logo">
-                <img id="logoVector" src="/images/logo/Group 12.png" alt="">
-            </div>
+    <nav class="navbar" id="navbar">
+        <ul class="menu">
+            <li><a class="menuItem" href="/#homescroll">HOME</a></li>
+            <li><a class="menuItem" href="/#aboutscroll">ABOUT US</a></li>
+            <li><a class="menuItem" href="/#productscroll">PRODUCTS</a></li>
+            <li><a class="menuItem" href="/#galleryscroll">GALLERY</a></li>
+            <li><a class="menuItem" href="/#contactusscroll">CONTACT US</a></li>
+          </ul>
+        <button class="hamburger">
+        <i class="menuIcon material-icons" id="material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+        </button>
+        <a href="#" class="navbar-logo" style="display: flex;">
+            <img src="/images/logo/Group 12.png" alt="" id="logoVector" style="width:100%; height: 54px; width: auto;">   
         </a>
-        
-        <div class="linkss">
-            <ul class="menu">
-                <li><a class="menuItem" href="/#homescroll">HOME</a></li>
-                <li><a class="menuItem" href="/#aboutscroll">ABOUT US</a></li>
-                <li><a class="menuItem" href="/#productscroll">PRODUCTS</a></li>
-                <li><a class="menuItem" href="/#galleryscroll">GALLERY</a></li>
-                <li><a class="menuItem" href="/#contactusscroll">CONTACT US</a></li>
-              </ul>
-            <button class="hamburger">
-            <i class="menuIcon material-icons" id="material-icons">menu</i>
-            <i class="closeIcon material-icons">close</i>
-            </button>
-            <ul id="links">
-                <li><a href="/#homescroll" id="home">HOME</a></li>
-                <li><a href="/#aboutscroll" id="aboutus">ABOUT US</a></li>
-                <li><a href="/#productscroll" id="products">PRODUCTS</a></li>
-                <li><a href="/#galleryscroll" id="gallery">GALLERY</a></li>
-                <li><a href="/#contactusscroll" id="contactus">CONTACT US</a></li>
-            </ul>
-        </div>    
-    </div>
+        <ul class="navbar-links">
+          <li class="navbar-dropdown">
+            <a href="/#homescroll" id="home">HOME</a>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="/#aboutscroll" id="aboutus">ABOUT US</a>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="/#productscroll" id="products">PRODUCTS</a>
+            <div class="dropdown">
+              <a href="/marbles">MARLBE</a>
+              <a href="/granites">GRANITE</a>
+              <a href="/ceramic600x1200">CERAMIC TILES</a>
+              <a href="/cnc">CNC DESIGNING</a>
+            </div>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="/#galleryscroll" id="gallery">GALLERY</a>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="/#contactusscroll" id="contactus">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
     
     <div id="title_box">
         <div id="title">
@@ -125,7 +136,7 @@
                     <div class="info"><p>GRANITE</p></div>    
                 </div>
                 <div class="item">
-                    <a href="/ceramic">
+                    <a href="/ceramic600x1200">
                         <img src="/images/products/Ceramic-tiles.jpg" alt="">
                         <div class="info"><p>CERAMIC TILES</p></div>
                     </a>
@@ -258,6 +269,7 @@
     
     <script src="/js/hamburger.js"></script>
     <script src="js/map.js"></script>
+    <script src="/js/button.js"></script>
     <script src="/js/navbar.js"></script>
     <script src="/js/slideshow.js"></script>
     <script src="/js/scroll.js"></script>

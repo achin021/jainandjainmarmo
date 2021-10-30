@@ -8,49 +8,65 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/hamburger.css">
     <link rel="stylesheet" href="/css/fade.css">
+    <link rel="stylesheet" href="/css/button.css">
     <link rel="stylesheet" href="/css/cnc.css">
     <link rel="stylesheet" href="/css/cncss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Granites</title>
 </head>
 <body>
-    <div id="navbar">
-        <a href="/" id="logo">
-            <div id="logo">
-                <img id="logoVector" src="/images/logo/Group 12.png" alt="">
-            </div>
-        </a>
-        
-        <div class="linkss">
-            <ul class="menu">
-                <li><a class="menuItem" href="/">HOME</a></li>
-                <li><a class="menuItem" href="/#aboutscroll">ABOUT US</a></li>
-                <li><a class="menuItem" href="/#productscroll">PRODUCTS</a></li>
-                <li><a class="menuItem" href="/#galleryscroll">GALLERY</a></li>
-                <li><a class="menuItem" href="/#contactusscroll">CONTACT US</a></li>
-              </ul>
-            <button class="hamburger">
-            <i class="menuIcon material-icons" id="material-icons">menu</i>
-            <i class="closeIcon material-icons">close</i>
-            </button>
-            <ul id="links">
-                <li><a href="/" id="home">HOME</a></li>
-                <li><a href="/#aboutscroll" id="aboutus">ABOUT US</a></li>
-                <li><a href="/#productscroll" id="products">PRODUCTS</a></li>
-                <li><a href="/#galleryscroll" id="gallery">GALLERY</a></li>
-                <li><a href="/#contactusscroll" id="contactus">CONTACT US</a></li>
-            </ul>
-        </div>    
-    </div>
+
+  <a id="button"></a>
+
+  <nav class="navbar" id="navbar">
+    <ul class="menu">
+        <li><a class="menuItem" href="/#homescroll">HOME</a></li>
+        <li><a class="menuItem" href="/#aboutscroll">ABOUT US</a></li>
+        <li><a class="menuItem" href="/#productscroll">PRODUCTS</a></li>
+        <li><a class="menuItem" href="/#galleryscroll">GALLERY</a></li>
+        <li><a class="menuItem" href="/#contactusscroll">CONTACT US</a></li>
+      </ul>
+    <button class="hamburger">
+    <i class="menuIcon material-icons" id="material-icons">menu</i>
+    <i class="closeIcon material-icons">close</i>
+    </button>
+    <a href="#" class="navbar-logo" style="display: flex;">
+        <img src="/images/logo/Group 12.png" alt="" id="logoVector" style="width:100%; height: 54px; width: auto;">   
+    </a>
+    <ul class="navbar-links">
+      <li class="navbar-dropdown">
+        <a href="/#homescroll" id="home">HOME</a>
+      </li>
+      <li class="navbar-dropdown">
+        <a href="/#aboutscroll" id="aboutus">ABOUT US</a>
+      </li>
+      <li class="navbar-dropdown">
+        <a href="/#productscroll" id="products">PRODUCTS</a>
+        <div class="dropdown">
+          <a href="/marbles">MARLBE</a>
+          <a href="/granites">GRANITE</a>
+          <a href="/ceramic">CERAMIC TILES</a>
+          <a href="/cnc">CNC DESIGNING</a>
+        </div>
+      </li>
+      <li class="navbar-dropdown">
+        <a href="/#galleryscroll" id="gallery">GALLERY</a>
+      </li>
+      <li class="navbar-dropdown">
+        <a href="/#contactusscroll" id="contactus">CONTACT US</a>
+      </li>
+    </ul>
+  </nav>
 
     <div id="title_box1" style="width: 100%;">
         <div id="title">
             <h2 id="main_title">CNC Designing</h2>
-            <h1 style="letter-spacing: 2px; font-weight: 400;">Exclusive mesmerizing designs that are versatile and can be used to elevate the look of your space. These beautiful and versatile laser-cut panels are light and can be used on furniture, to create room partitions, false ceiling panels, or even as a backlit panel on a wall. We provide a great range of choices and plenty of scope for customization.</h1>        
+            <h1 style="letter-spacing: 1px; font-weight: 400;">Exclusive mesmerizing designs that are versatile and can be used to elevate the look of your space. These beautiful and versatile laser-cut panels are light and can be used on furniture, to create room partitions, false ceiling panels, or even as a backlit panel on a wall. We provide a great range of choices and plenty of scope for customization.</h1>        
         </div>  
         <div id="number2" style="margin-bottom:80px">
           <div class="containerss">
@@ -120,7 +136,8 @@
     
 
     <!-- Container for the image gallery -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/button.js"></script>
     <script src="/js/cncss.js"></script>
     <script src="/js/hamburger.js"></script>
     <script src="/js/navbar.js"></script>

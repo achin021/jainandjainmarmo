@@ -24,7 +24,7 @@ hr{
     font-family: roboto;
     font-size: 20px;
     font-weight: 300;
-    line-height: 40px;
+    line-height: 37px;
     letter-spacing: 1px;
 }
 
@@ -38,7 +38,7 @@ hr{
 
 .container1 #imagelogo{
     flex:1;
-    text-align: center;
+    text-align: right;
 }
 
 .container1 #heading{
@@ -46,7 +46,7 @@ hr{
 }
 
 .container1 #imagelogo img{
-    width: 90%;
+    width: 75%;
     position: relative;
     margin-top: 60px;
     
@@ -55,6 +55,11 @@ hr{
 .container11 #heading {
     text-align: right;
 }
+
+.container11 #imagelogo {
+    text-align: left;
+}
+
 
 #productscroll{
     position: relative;
@@ -96,6 +101,20 @@ hr{
     .container1 {
         flex-direction: column;
     }
+
+    .container1 .container11 {
+        padding: 0px 70px 0px 70px;
+    }
+
+    .container11 #imagelogo{
+        text-align: center;
+    }
+
+    .container1 #imagelogo{
+        text-align: center;
+        gap: 0;
+    }
+
     .container11 #imagelogo{
         order: 2;
     }
@@ -109,16 +128,18 @@ hr{
         align-items: center;
         justify-content: center;
     }
+    
+
     .container1 #imagelogo{
         margin: 0;
     }
     .container1 #heading {
         flex: 1;
-        padding: 20px 0px 0px 0px;
+        padding: 0px;
     }
     .container1 #imagelogo img {
         height: 60vw;
-
+        width: 100%;
     }
     
 }
