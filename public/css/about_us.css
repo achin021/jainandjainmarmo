@@ -92,7 +92,7 @@ hr{
     }
     .container1 {
         padding: 15px 70px 0px 70px;
-        gap:30px
+        gap:48px
     }
     .about .container1 #heading p{
         margin-top:40px;
@@ -121,6 +121,10 @@ hr{
 
     .container11 #imagelogo{
         order: 2;
+    }
+
+    .container11{
+        margin: 0;
     }
     
 }
