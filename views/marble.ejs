@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/hamburger.css">
     <link rel="stylesheet" href="/css/fade.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/button.css">
     <link rel="stylesheet" href="/css/marble.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -18,7 +20,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: white;">
     
     <a id="button"></a>
 
@@ -34,7 +36,7 @@
         <i class="menuIcon material-icons" id="material-icons">menu</i>
         <i class="closeIcon material-icons">close</i>
         </button>
-        <a href="#" class="navbar-logo" style="display: flex;">
+        <a href="/" class="navbar-logo" style="display: flex;">
             <img src="/images/logo/Group 12.png" alt="" id="logoVector" style="width:100%; height: 54px; width: auto;">   
         </a>
         <ul class="navbar-links">
@@ -87,12 +89,80 @@
                 <div class="single-img">
                     <img src="/images/marbles/<%= marbleLinks[index] %> " alt="">
                     <div class="marbleName">
-                        <h1 style="color: white;"><%= marbleNames[index] %> </h1>
+                        <h1 style="color: white; font-size: 20px;"><%= marbleNames[index] %> </h1>
                     </div>
                 </div>
             <% } %>
         </div>
       </div>
+
+      <div class="contact_container">
+        <div id="inf" class = "half1">
+            <h1>Contact Us</h1>
+            <div id="phone" class="data">
+                <div id="icon">
+                    <img src="/images/contact/phone.svg" alt="">
+                </div>
+                <div id="text">
+                    <p>+91 9468880011 | +91 9252333336</p>
+                </div>
+            </div>
+
+            <div id="mail" class="data">
+                <div id="icon">
+                    <img src="/images/contact/mail.svg" alt="">
+                </div>
+                <div id="text">
+                    <a href = "mailto:jainandjainmarmo@yahoo.com?subject = Feedback&body = Message" style="color: white;">jainandjainmarmo@yahoo.com</a>
+                </div>
+            </div>
+
+            <div id="location" class="data">
+                <div id="icon">
+                    <img src="/images/contact/map-pin.svg" alt="">
+                </div>
+                <div id="text">
+                    <p>34, Kirti Nagar, New Sanganer road,
+                        Shyam Nagar, Jaipur, Rajasthan, 302019</p>
+                </div>  
+            </div>
+        </div>
+        <div id="inf" class = "half1">
+            <h1>Quick Links</h1>
+            <div id="phone" class="data">
+                <div id="text">
+                    <p> <a href="/marbles" style="color: white;">Marble</a></p>
+                </div>
+            </div>
+
+            <div id="location" class="data">
+                <div id="text">
+                    <p> <a href="/granites" style="color: white;">Granite</a></p>
+                </div>  
+            </div>
+
+            <div id="mail" class="data">
+
+                <div id="text">
+                    <p> <a href="/ceramic600X1200" style="color: white;">Cermaic Tiles</a></p>
+                </div>
+            </div>
+
+            <div id="location" class="data">
+                <div id="text">
+                    <p> <a href="/cnc" style="color: white;">CNC Designing</a></p>
+                </div>  
+            </div>
+        </div>
+        <div id="map" class = "half2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1117.7405652498664!2d75.76969562923713!3d26.895962294982624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db467b4a5cc61%3A0x83817158a9a93a3c!2sNeta%20ji%20info!5e1!3m2!1sen!2sin!4v1633345808806!5m2!1sen!2sin" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <div class="footer" style="padding: 40px 50px; font-size: 13px;background-color: rgba(31,44,65,1);">
+      <p style="color: white; text-align: left;line-height: 30px;">© 2021 Jain And Jain Marmo Pvt. Ltd. <br></p>
+      <p style="color: white;">Designed and Developed by - <a target= "_blank" href="https://www.thedigitalnarrators.com/" style="color: white; cursor: pointer;">The Digital Narrators</a></p>
+  </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/js/button.js"></script>

@@ -31,6 +31,7 @@ scroll-behavior: smooth;
     font-weight: bold;
     margin-bottom: 0px;
     line-height:80px;
+    color: black;
 }
 
 .single-img img{
@@ -82,11 +83,6 @@ width: 100%;
 flex-direction: column;
 flex: 1;
 word-wrap: break-word;
-position: absolute; 
-z-index: 10;
-top: 100px;
-background-color: rgba(255,255,255,0);
-border-radius: 15px;
 align-items: center;
 }
 
@@ -115,7 +111,7 @@ align-items: center;
 #title{
     margin-bottom: 100px;
     padding: 0 70px;
-    margin-top: 67px;
+    margin-top: 160px;
 }
 
 #sizes{
@@ -165,7 +161,7 @@ align-items: center;
     top: 20%;
     }
     #title{
-    margin-top: 0;
+    margin-top: 125px;
     padding: 0 30px;
     }
 }
@@ -190,16 +186,6 @@ align-items: center;
         }
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-    padding: 0 20px;
-}
 
 a {
     color: white;

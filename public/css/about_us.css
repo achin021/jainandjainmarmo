@@ -3,19 +3,19 @@
 
 }
 
-.about .container1 #heading h1{
+#headingmain {
     color: #002A41;
-    margin-bottom:80px ;
     font-family: 'Playfair Display', serif;
     font-size: 75px;
     font-weight: 800;
     letter-spacing: 3px;
+    padding-left: 70px;
 }
 
 hr{
-    margin-top: 71px;
+    margin-top: 50px;
     width: 44%;
-    height: 5px;
+    height: 3px;
     border: none;
     background: #e2d2cd;
 }
@@ -48,12 +48,16 @@ hr{
 .container1 #imagelogo img{
     width: 75%;
     position: relative;
-    margin-top: 60px;
     
 }
 
 .container11 #heading {
     text-align: right;
+}
+
+.container11{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container11 #imagelogo {

@@ -30,6 +30,7 @@ scroll-behavior: smooth;
   letter-spacing: 4px; 
   font-weight: bold;
   margin-bottom: 0px;
+  color: black;
 }
 
 .single-img img{
@@ -192,16 +193,6 @@ word-break: break-word;
   }
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  padding: 0 20px;
-}
 
 a {
   color: white;

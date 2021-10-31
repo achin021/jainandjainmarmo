@@ -125,6 +125,11 @@ word-break: break-word;
   font-family: 'Playfair Display', sans-serif;
 }
 
+
+#title a{
+  text-decoration: underline;
+}
+
 @font-face {
   font-family: nexa-demo;
   src: url('../fonts/NexaDemo-Bold.woff');
@@ -207,16 +212,6 @@ word-break: break-word;
 
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  padding: 0 20px;
-}
 
 
 a {
