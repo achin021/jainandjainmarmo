@@ -8,6 +8,7 @@ scroll-behavior: smooth;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 
 }
 .single-img{
@@ -150,7 +151,7 @@ word-break: break-word;
 
   .mockup img{
     width: 370px;
-    margin-right: 100px;
+    margin-right: 60px;
   }
 }
 

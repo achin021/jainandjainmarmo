@@ -3,6 +3,7 @@
     background-color: rgb(31, 44, 65);
     width: 80px;
     height: 50px;
+    border: 1px white;
     text-align: center;
     border-radius: 4px;
     position: fixed;

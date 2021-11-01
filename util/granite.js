@@ -100,6 +100,15 @@ module.exports = {
         'English Teak Granite',
         'Colonial Gold Granite',
         'Colombo Juprana Granitese',
+        'Ghiblee Granite',
+        'English teak Granite',
+        'Colonia Gold Granite',
+        'Colombo Juprana Granite',
+        'Coffee Brown Granite',
+        'Black Pearl Granite',
+        'Black Galaxy Granite',
+        'Bash Paradiso Granite',
+        'Apple Green Granite'
         ]
         return granite_name;
     },
@@ -205,6 +214,16 @@ module.exports = {
         'English-Teak-260x260.jpg',
         'Colonial-Gold-260x260.jpg',
         'Colombo-Juprana-1-260x260.jpg',
+        'Giblee-300x300.jpg',
+        'English-Teak-300x300.jpg',
+        'Colonial-Gold-300x300.jpg',
+        'Colombo-Juprana-1-300x300.jpg',
+        'Coffee-Brown-1-300x300.jpg',
+        'Black-pearl-300x300.jpg',
+        'Black-Galaxy-300x300.jpg',
+        'Bash-Paradiso--300x300 (1).jpg',
+        'apple-green-Granite-300x300.jpg'
+
         ]
 
         return granite_link;

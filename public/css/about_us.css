@@ -13,7 +13,7 @@
 }
 
 hr{
-    margin-top: 50px;
+    margin-top: 83px;
     width: 44%;
     height: 3px;
     border: none;
@@ -46,7 +46,9 @@ hr{
 }
 
 .container1 #imagelogo img{
-    width: 75%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     position: relative;
     
 }
