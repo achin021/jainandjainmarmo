@@ -25,7 +25,6 @@ scroll-behavior: smooth;
 }
 
 #main_title{
-  text-indent: -8px;
   font-size: 95px;
   font-family: 'Playfair Display', sans-serif;
   letter-spacing: 4px; 
@@ -163,7 +162,7 @@ word-break: break-word;
 }
 @media only screen and (max-width: 600px) {
   #box{
-    height: 58vh;
+    height: 90vh;
   }
 
   #title_box p {
@@ -175,9 +174,8 @@ word-break: break-word;
 
 @media only screen and (max-width: 870px){
   #title_box1{
-    margin:0 ;
     text-align: left;
-    top: 36%;
+    top: 47%;
   }
   #title{
     margin: 0 auto;
