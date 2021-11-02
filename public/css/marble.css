@@ -162,7 +162,7 @@ word-break: break-word;
 }
 @media only screen and (max-width: 600px) {
   #box{
-    height: 90vh;
+    height: 80vh;
   }
 
   #title_box p {
